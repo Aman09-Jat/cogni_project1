@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #07070a;
+}
+@media only screen and (min-width: 768px) {
+    .box1 {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        align-items: center;
+        z-index: 30;
+        position: fixed;
+        font-family: "Larsseit";
+        background-color: black;
+        color: #fff;
+        height: 4.9375rem;
+        padding: 0 10vw;
+        top: 0;
+}
+/* .box1 {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    z-index: 30;
+    position: fixed;
+    font-family: "Larsseit";
+    background-color: black;
+    color: #fff;
+    height: 4.9375rem;
+    padding: 0 10vw;
+    top: 0; */
+}
+.subbox1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20rem;
+    max-width: 250px;
+}
+.flex{
+    display: flex;
+}
+.cognilogo1{
+    margin-right: 0.875rem;
+}
+.cognicontent1 {
+    font-size: 1rem;
+    width: fit-content;
+    color: #fff;
+    text-decoration: none;
+}
+.subbox2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+.searchbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 .9rem;
+    width: 1.8rem;
+    cursor: pointer;
+}
+#search{
+    z-index: 2;
+}
+.workshopbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 2.4rem;
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+    opacity: 1;
+    transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+.workshopboxcontent {
+    position: relative;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+.workshopboxcontent1 {
+    color: white;
+    font-size: 100%;
+}
+.loginbutton {
+    padding: 0.625rem 1rem;
+    background: inherit;
+    font-size: 1rem;
+    border: 0.8px solid;
+    text-align: center;
+    font-family: "WalkWayBlack";
+    line-height: 1.05rem;
+    letter-spacing: 0.08em;
+    color: white;
+    cursor: pointer;
+    margin-right: 1.25rem;
+}
+.registerbutton {
+    padding: 0.625rem 1rem;
+    /* background: rgba(224,67,89,0.25); */
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.05rem;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+    .box2 {
+        justify-content: center;
+        align-content: center;
+        color: white;
+    }
+}
+.subbox3 {
+    width: 80vw;
+    margin-left: 10vw;
+    font-family: "CeraPro";
+    font-size: 1.4rem;
+}
+.heading1 {
+    padding: 0px 0px 25px 0px;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.head1img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.head2 {
+    font-family: "Nexa-Regular";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 110.5%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    padding-top: 3.73375rem;
+    width: 30vw;
+}
+.body1 {
+    font-family: "Larsseit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 117.9%;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    opacity: 0.8;
+    padding-top: 0.9975rem;
+    width: 40vw;
+}
+.img2{
+    width: 20vw;
+}
+.head3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.registerforspp{
+    font-family: "Larsseit";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.08em;
+    color: #231123;
+    height: 3.3125rem;
+    background: #19d2a6;
+    border: 0.8px solid #19d2a6;
+    box-sizing: border-box;
+    padding: 1%;
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+.social-media-container {
+    display: flex;
+    margin-right: -10vw;
+}
+.fab {
+    color: white;
+    margin-right: 2rem;
+}
+/* .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 100%;
+    font-size: 1.4rem;
+    margin-right: 2rem;
+    opacity: 0.8;
+}
+.fa-instagram::before {
+    content: "\f16d";
+} */
+.subbox4 {
+    font-family: "Nexa-Regular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.08em;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.subhead {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+.subbox5 {
+    text-align: center;
+    background-color: #111b1e;
+    margin-bottom: 123px;
+    padding: 2rem;
+    font-family: "Larsseit";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    width: 20vw;
+}
